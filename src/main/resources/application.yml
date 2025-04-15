@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: argocd-test
+
+app:
+  version:
+    v1.0.1

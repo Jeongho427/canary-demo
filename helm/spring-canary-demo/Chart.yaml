@@ -1,0 +1,11 @@
+apiVersion: v2
+name: spring-canary-demo
+description: A Helm chart for deploying a Spring Boot app using Argo Rollouts (Canary strategy)
+
+type: application
+
+# Helm 차트 자체의 버전 (템플릿 변경 시 업데이트)
+version: 0.1.0
+
+# 실제 앱의 버전 (Docker 이미지 tag와 연동 가능)
+appVersion: "1.0.0"
