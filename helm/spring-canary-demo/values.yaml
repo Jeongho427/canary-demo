@@ -25,7 +25,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80  # 이 값은 rollout.yaml의 containerPort와 동일해야 함
+  port: 8081  # 이 값은 rollout.yaml의 containerPort와 동일해야 함
 
 ingress:
   enabled: false
